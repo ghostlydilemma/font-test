@@ -1,0 +1,1 @@
+document.documentElement.style.setProperty('--background', `rgb(${Math.floor(Math.random() * 256)}, ${Math.floor(Math.random() * 256)}, ${Math.floor(Math.random() * 256)})`);

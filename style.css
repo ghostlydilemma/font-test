@@ -1,0 +1,57 @@
+html,
+body {
+  height: 100%;
+  margin: 0 !important;
+  overflow: hidden;
+  font-family: "Lato";
+}
+
+body {
+  background-color: var(--background);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.font-cluster {
+  width: 700px;
+  background-color: white;
+  border-radius: 30px;
+  min-height: 550px;
+  box-shadow: 2px 3px 93px -6px rgba(0, 0, 0, 0.35);
+  padding: 40px;
+  box-sizing: border-box;
+  display: grid;
+  grid-template-columns: 0.2fr 1fr;
+  row-gap: 0.2fr;
+  align-items: center;
+}
+
+.title {
+  grid-column: span 2;
+  margin: 0;
+}
+
+.standard {
+  font-family: initial;
+}
+
+.sans-serif {
+  font-family: sans-serif;
+}
+
+.serif {
+  font-family: serif;
+}
+
+.monospace {
+  font-family: monospace;
+}
+
+.cursive {
+  font-family: cursive;
+}
+
+.fantasy {
+  font-family: fantasy;
+}
